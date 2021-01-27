@@ -1,0 +1,39 @@
+/* 
+Author : John Adjetey Khartey
+*/
+
+/* body styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body font family */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* container class */
+.container {
+  max-width: 1300px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* navbar class styles  */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* margin-bottom: auto; */
+}
+
+.header {
+  background: radial-gradient(#fff, #81bef7);
+}
+header {
+  position: fixed;
+  z-index: 10000;
+  margin: auto;
+  top: 0px;
+  width: 100%;
+  opacity: 0.8;
+}
