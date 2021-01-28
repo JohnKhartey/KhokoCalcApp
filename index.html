@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khoko Online Calculator</title>
     <link rel="stylesheet" href="./style1.css">
+    <link rel="icon" href="./SafeWorld logo.png" type="icon/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
 </head>
 <body>
@@ -27,13 +28,16 @@
     <div id="container">
         <div id="calculator">
             <div id="result">
+
                 <div id="history">
                     <p id="history-value"></p>
                 </div>
+
                 <div id="output">
                     <p id="output-value"></p>
                 </div>
             </div>
+
             <div id="keyboard">
                 <button class="operator" id="clear">C</button>
                 <button class="operator" id="backspace">CE</button>
@@ -56,31 +60,63 @@
                 <button class="empty" id="empty"></button>
                 <button class="operator" id="=">=</button>
             </div>
+
         </div>
+
+        <!-- Script and Stlye sheet linking -->
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
     </div>
-    <link rel="stylesheet" href="./style.css">
-    <script src="script.js"></script>
-    </div>
+
+    
 
 <!-- Footer  -->
     <footer>
         <div class="footer-container">
             <div class="footer-row">
                 <div class="col-2">
-                    <h3>How it works</h3><br>
-                    <ol>
-                        <li>This basic online calculator is similar to a small handheld calculator and has the standard four functions for addition,
-                        subtraction, division and multiplication</li>
-                        <li>Input your expression and press  <strong> "=" </strong> </li>
 
-                    </ol>
-                </div> 
+                    <h3>How it works</h3><br>
+
+                    <ol>
+                        <li>This basic online calculator is similar to a small handheld calculator and has the standard four
+                            functions for addition,
+                            subtraction, division and multiplication</li><br>
+                        <li>Input your expression and press <strong> = </strong>sign for results </li>
+                    </ol><br> 
+                </div>
+        
                 <div class="col-2">
-                    <h3>Comment</h3>
-                    <form action=""></form>
+                    <h3>Comment</h3> <br>
+                    <form action="https//formspree.oi/johnkhartey5@gmail.com" method="POST" id="comment-form"></form>
+                    <div>
+                        <input type="text" name="Comment" id="comment" placeholder="Leave a message..."> 
+                    </div>
+                    <br>                  
+                    
+                    <!-- Submit or Commet element -->
+                    <div>
+                        
+                        <button class="comment-btn" id="submit" onclick="alert('Thanks for your message, We really Appreciate it. ')">Comment</button>
+                    </div> <!--end of div--> <br>
+
+        
                 </div>
             </div>
+            
+            <br>
+            <hr>
+            <br>
+
+            <!-- Css sheet linking  -->
+            <link rel="stylesheet" href="style1.css">
+
+            <!-- Author notes -->
+            <p>Khoko Online Calculator created by
+                John Khartey. All rights reserved &copy; 2021.
+            </p>
         </div>
+        
     </footer>
 
 </body>
