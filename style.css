@@ -84,11 +84,13 @@ h2 {
 }
 button:nth-child(1) {
   font-size: 20px;
-  background-color: #c040c0;
+  background-color: brown;
+  color: white;
 }
 button:nth-child(2) {
   font-size: 20px;
-  background-color: #3fccb5;
+  background-color: brown;
+  color: white;
 }
 button:nth-child(3) {
   font-size: 20px;
