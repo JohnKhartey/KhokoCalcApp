@@ -1,12 +1,16 @@
 function getHistory(){
 	return document.getElementById("history-value").innerText;
 }
+
+// Print the value of the history-value class
 function printHistory(num){
 	document.getElementById("history-value").innerText=num;
 }
+
 function getOutput(){
 	return document.getElementById("output-value").innerText;
 }
+// Print Output Function 
 function printOutput(num){
 	if(num==""){
 		document.getElementById("output-value").innerText=num;
