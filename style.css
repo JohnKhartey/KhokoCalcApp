@@ -16,14 +16,14 @@ h2 {
 #container {
   width: 100vw;
   height: 100vh;
-  margin-top: 40px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #calculator {
   width: 320px;
-  height: 520px;
+  height: 510px;
   background-color: #eaedef;
   margin: 0 auto;
   top: 20px;
