@@ -33,9 +33,9 @@ body {
 
 .header-name {
   color: rgb(7, 60, 104);
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bolder;
-  margin-right: 37%;
+  margin-right: 34%;
   display: inline-block;
   white-space: nowrap;
 }
