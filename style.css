@@ -15,7 +15,9 @@ h2 {
 #container {
   width: 100vw;
   height: 100vh;
-  margin: 55px auto;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #calculator {
