@@ -47,7 +47,6 @@ h2 {
   height: 50px;
   margin: 10px 20px;
   font-size: 30px;
-  background-color: rgb(139, 199, 43);
 }
 #keyboard {
   height: 400px;
@@ -62,7 +61,7 @@ h2 {
   float: left;
   border-radius: 15px;
   border-width: 0;
-  border: solid lightslategray;
+  border: 1px solid lightslategray;
   font-weight: bold;
   font-size: 15px;
 }
