@@ -69,9 +69,12 @@ h2 {
 .empty {
   background-color: #eaedef;
 }
+
 .number,
 .operator {
   cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
 }
 .operator:active,
 .number:active {
@@ -88,6 +91,56 @@ button:nth-child(1) {
   color: white;
 }
 button:nth-child(2) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(5) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(6) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(7) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(9) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(10) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(11) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(13) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(14) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(15) {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+}
+button:nth-child(18) {
   font-size: 20px;
   background-color: brown;
   color: white;
