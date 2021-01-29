@@ -17,7 +17,7 @@ body {
   max-width: 1300px;
   margin-left: 25px;
   margin-right: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 /* navbar class styles  */
 .navbar {
@@ -39,7 +39,7 @@ header {
   position: fixed;
   z-index: 10000;
   margin-top: auto;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   top: 0px;
   width: 100%;
   opacity: 0.8;
