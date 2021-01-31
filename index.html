@@ -89,20 +89,27 @@
                 </div>
         
                 <div class="col-2">
+
                     <h3 style="margin-top: 0px;">Comment</h3> <br>
-                    <form action="https//formspree.oi/johnkhartey5@gmail.com" method="POST" id="comment-form" name="comments-form" data-netlify="true"></form>
-                    <div>
-                        <input type="text" name="Comment" id="comment" placeholder="  Leave a message..."> 
-                    </div>
-                    <br>                  
+
+                    <form action="https://formspree.io/f/xpzonwaz" method="POST" id="comment-form" name="comments-form" data-netlify="true">
                     
-                    <!-- Submit or Commet element -->
                     <div>
-                        
-                        <button class="comment-btn" id="submit" onclick="alert('Thanks for your message, We really Appreciate it. ')" style="background-color: #555555;">Comment</button>
+                        <input type="text" name="Comment" id="comment" placeholder="  Leave a message...">
+                    </div> <br>
+
+                    <!-- Submit or Comment button -->
+                    <div>
+                        <button class="comment-btn" id="submit" onclick="alert('Thanks for your message, We really Appreciate it. ')" style="background-color: #555555;" >Submit</button>
                     </div> <!--end of div--> <br>
 
-        
+                    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+                    <script>
+                        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+                        formbutton("create", { action: "https://formspree.io/f/xpzonwaz" })
+                    </script>
+
+                    </form>
                 </div>
             </div>
             
