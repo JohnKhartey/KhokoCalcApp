@@ -1,0 +1,177 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(133, 180, 192);
+  }
+  
+  h2 {
+    max-width: 100%;
+    flex: 1;
+    text-align: right;
+    color: #555555;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 37.5%;
+  }
+  
+  #container {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #calculator {
+    width: 320px;
+    height: 510px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #result {
+    height: 120px;
+  }
+  #history {
+    text-align: right;
+    height: 50px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+  }
+  #output {
+    text-align: right;
+    height: 50px;
+    margin: 10px 20px;
+    font-size: 30px;
+  }
+  #keyboard {
+    height: 400px;
+  }
+  
+  .operator,
+  .number,
+  .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 15px;
+    border-width: 0;
+    border: 1px solid lightslategray;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .number,
+  .empty {
+    background-color: #eaedef;
+  }
+  
+  .number,
+  .operator {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .operator:active,
+  .number:active {
+    font-size: 13px;
+  }
+  .operator:focus,
+  .number:focus,
+  .empty:focus {
+    outline: 0;
+  }
+  button:nth-child(1) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(2) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(5) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(6) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(7) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(9) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(10) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(11) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(13) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(14) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(15) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(18) {
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+  }
+  button:nth-child(3) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }
+  button:nth-child(4) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }
+  button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }
+  button:nth-child(12) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }
+  button:nth-child(16) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }
+  button:nth-child(17) {
+    border: none;
+  }
+  button:nth-child(19) {
+    border: none;
+  }
+  button:nth-child(20) {
+    font-size: 20px;
+    background-color: #ffa500;
+  }

@@ -1,0 +1,116 @@
+/* 
+Author : John Adjetey Khartey
+*/
+
+/* body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body font family */
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #38b5d4c5;
+  }
+  /* container class */
+  .container {
+    max-width: 1300px;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+  }
+  /* navbar class styles  */
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* margin-bottom: auto; */
+  }
+  
+  .header {
+    background: radial-gradient(#fff, #81bef7);
+  }
+  
+  .header-name {
+    color: rgb(7, 60, 104);
+    font-size: 28px;
+    font-weight: bolder;
+    margin-right: 34%;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  header {
+    position: fixed;
+    z-index: 10000;
+    margin-top: auto;
+    margin-bottom: 60px;
+    top: 0px;
+    width: 100%;
+    opacity: 0.8;
+  }
+  
+  .footer-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  .footer-container p {
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    columns: #555555;
+    color: beige;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .col-2 {
+    min-width: 250px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    align-items: center;
+    /*  */
+    padding-left: 20px;
+  }
+  
+  .col-2 ol li {
+    list-style-type: none;
+  }
+  
+  .comment-btn {
+    display: inline-block;
+    padding: 5px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #465055;
+    font-size: 16px;
+    font-weight: medium;
+    color: #fff;
+  }
+  
+  input {
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
