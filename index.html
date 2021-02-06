@@ -17,7 +17,7 @@
                     <div class="logo">
                         <img src="./CALCULATOR.PNG" alt="topmost left logo" width="25" height="25">
                     </div>
-                    <h2 class="header-name"> Khoko Calc Online Calculator</h2>
+                    <h2 class="header-name"> Khoko Online Calculator</h2>
                 </div>
             </div>
             <link rel="stylesheet" href="./style1.css">
@@ -70,63 +70,64 @@
 
     
 
-<!-- Footer  -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="col-2">
 
-                    <h3>Quick Guide</h3><br>
-
-                    <ol>
-                        <li>* This basic online calculator is similar to a small handheld calculator and has the standard four
-                            functions for addition,
-                            subtraction, division and multiplication</li><br>
-                        <li>* Input your expression and press <strong> = </strong>sign for results </li><br>
-                        <li>* Click <strong>C</strong> to cancel both history and output</li><br>
-                        <li>* Click on <strong>CE</strong> to clear entries</li><br>
-                    </ol>
-                </div>
+    
+    <div class="main-container">
+        <div class="main-row">
+            <div class="col-2">
         
-                <div class="col-2">
-
-                    <h3 style="margin-top: 0px;">Comment</h3> <br>
-
-                    <form action="https://formspree.io/f/xpzonwaz" method="POST" id="comment-form" name="comments-form" data-netlify="true">
-                    
+                <h3>Quick Guide</h3><br>
+        
+                <ol>
+                    <li>* This basic online calculator is similar to a small handheld calculator and has the standard four
+                        functions for addition,
+                        subtraction, division and multiplication</li><br>
+                    <li>* Input your expression and press <strong> = </strong>sign for results </li><br>
+                    <li>* Click <strong>C</strong> to cancel both history and output</li><br>
+                    <li>* Click on <strong>CE</strong> to clear entries</li><br>
+                </ol>
+            </div>
+        
+            <div class="col-2">
+        
+                <h3>Comment</h3> <br>
+        
+                <form action="https://formspree.io/f/xpzonwaz" method="POST" id="comment-form" name="comments-form"
+                    data-netlify="true">
+        
                     <div>
                         <input type="text" name="Comment" id="comment" placeholder="  Leave a message...">
                     </div> <br>
-
+        
                     <!-- Submit or Comment button -->
                     <div>
-                        <button class="comment-btn" id="submit" onclick="alert('Thanks for your message, We really Appreciate it. ')" style="background-color: #555555;" >Submit</button>
-                    </div> <!--end of div--> <br>
-
+                        <button class="comment-btn" id="submit"
+                            onclick="alert('Thanks for your message, We really Appreciate it. ')"
+                            style="background-color: #555555;">Submit</button>
+                    </div>
+                    <!--end of div--> <br>
+        
                     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
                     <script>
                         window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
                         formbutton("create", { action: "https://formspree.io/f/xpzonwaz" })
                     </script>
-
-                    </form>
-                </div>
+        
+                </form>
             </div>
-            
-            <br>
-            <hr>
-            <br>
-
-            <!-- Css sheet linking  -->
-            <link rel="stylesheet" href="style1.css">
-
-            <!-- Author notes -->
-            <p>Khoko Online Calculator created by
-                John Khartey.      |   All rights reserved &copy; 2021.
-            </p>
         </div>
         
+        <br>
+        <hr>
+        <br>        
+        <!-- Css sheet linking  -->
+        <link rel="stylesheet" href="style1.css">
+    </div>
+            <!-- Author notes -->
+    <footer>
+        <p>Khoko Online Calculator created by
+            John Khartey. | All rights reserved &copy; 2021.
+        </p>
     </footer>
-
 </body>
 </html>

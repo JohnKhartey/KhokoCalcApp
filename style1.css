@@ -11,6 +11,11 @@ Author : John Adjetey Khartey
 /* body font family */
 body {
   font-family: "Poppins", sans-serif;
+  background: #8dc4da;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 /* container class */
 .container {
@@ -50,27 +55,23 @@ header {
   opacity: 0.8;
 }
 
-.footer-container {
+.main-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
-}
-.footer-container p {
   text-align: center;
-  font-size: larger;
+  font-size: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
-  columns: #555555;
-  color: beige;
 }
 
-.footer-row {
+.main-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
   justify-content: start;
   margin-right: 25px;
   margin-left: 25px;
@@ -82,7 +83,8 @@ header {
   min-width: 250px;
   flex-basis: 50%;
   flex-grow: 1;
-  align-items: center;
+  align-items: left;
+  text-align: left;
   /*  */
   padding-left: 20px;
 }
@@ -106,6 +108,15 @@ input {
   width: auto;
   height: 50px;
   border-radius: 15px;
+}
+
+footer p {
+  font-size: 20px;
+  color: azure;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 *,
